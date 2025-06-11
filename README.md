@@ -39,7 +39,7 @@ Machine Learning
  24. citympg - Mileage in city
  25. highwaympg - Mileage on highway
  26. Price( Dependent Variable) - Price of car
-      Objective:
+* Objective:
  You are required to model the prices of cars with the available independent variables. It will be
  used by management to understand how exactly the prices vary with the independent variables.
  They can accordingly manipulate the design of the cars, the business strategy etc. to meet
