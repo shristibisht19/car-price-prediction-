@@ -39,32 +39,31 @@ Machine Learning
  24. citympg - Mileage in city
  25. highwaympg - Mileage on highway
  26. Price( Dependent Variable) - Price of car
- Objective
+ Objective:
  You are required to model the prices of cars with the available independent variables. It will be
  used by management to understand how exactly the prices vary with the independent variables.
  They can accordingly manipulate the design of the cars, the business strategy etc. to meet
  certain price levels. Further, the model will be good for management to understand the pricing
  dynamics of the new market.
- Questions 
-Step 1 : Understand the Business Problem.
- Step 2 : Import all the libraries and set up all the requirements that you will need.
- Step 3: Import the data set and check the following- dimension of the dataset.- data types.- Missing value available in the dataset.- Descriptive statistics of data and write the observation.
- Step 4: Data Cleaning- Create the column as 'CompanyName' using 'CarName' Column. List down the unique
+ 
+## Step 1 : Understand the Business Problem.
+## Step 2 : Import all the libraries and set up all the requirements that you will need.
+## Step 3: Import the data set and check the following- dimension of the dataset.- data types.- Missing value available in the dataset.- Descriptive statistics of data and write the observation.
+## Step 4: Data Cleaning- Create the column as 'CompanyName' using 'CarName' Column. List down the unique
  'CompanyName'.- Check the correctness of data in the 'CompanyName' column.- Check the duplicate data in the dataset.
-Step 5: Exploratory Data Analysis- Visualize the 'price' column using displot and boxplot. Write down the observations.- Perform the appropriate transformation to make the target as a gaussian distribution.- Check the linear relationship between the dependent variable "Price" and the numerical
+## Step 5: Exploratory Data Analysis- Visualize the 'price' column using displot and boxplot. Write down the observations.- Perform the appropriate transformation to make the target as a gaussian distribution.- Check the linear relationship between the dependent variable "Price" and the numerical
  independent variables- Checking the multicollinearity between the correlated independent variables above and
  Price- Perform Univariate, Bivariate, and Multivariate analyses to find the factors that affect the
  Target variables.- Perform feature engineering based on sound knowledge of the business problem and
  available dataset.
- Step 6: Perform the preprocessing that is required for the model.
- Step 7: Split the dataset into train and test data sets and perform the scaling on both
+## Step 6: Perform the preprocessing that is required for the model.
+## Step 7: Split the dataset into train and test data sets and perform the scaling on both
  sets if necessary.
- Step 8: Build the base model.
- Step 9: Understand how the model is performing, Perform feature engineering again if
+## Step 8: Build the base model.
+## Step 9: Understand how the model is performing, Perform feature engineering again if
  needed. Do feature selection. Try with various models like parametric and
  nonparametric models. Once you choose the final model, rebuild the model with the
- best parameters.
- Note: If you are performing with Linear models, check the model is fulfilling the
+ best parameters. Note: If you are performing with Linear models, check the model is fulfilling the
  assumptions.
- Step 10: Based on your understanding of the model and EDA analysis, Explain the
+## Step 10: Based on your understanding of the model and EDA analysis, Explain the
  business understanding
